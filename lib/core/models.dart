@@ -1,4 +1,4 @@
-/// Data models for articles fetched live from open references.
+// Data models for articles fetched live from open references.
 
 class Inline {
   final String text;

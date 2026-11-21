@@ -59,7 +59,7 @@ class _Row extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 8),
           child: Row(
             children: [
-              Thumb(item.thumb),
+              ThumbImage(item.thumb),
               const SizedBox(width: 12),
               Expanded(
                 child: Column(

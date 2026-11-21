@@ -136,10 +136,10 @@ class ErrorView extends StatelessWidget {
       );
 }
 
-class Thumb extends StatelessWidget {
+class ThumbImage extends StatelessWidget {
   final String? url;
   final double size;
-  const Thumb(this.url, {super.key, this.size = 56});
+  const ThumbImage(this.url, {super.key, this.size = 56});
 
   @override
   Widget build(BuildContext context) {

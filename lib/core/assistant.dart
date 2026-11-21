@@ -147,7 +147,7 @@ class Assistant {
     final buf = StringBuffer();
     for (final p in ranked.take(3)) {
       final t = p.text.length > 600 ? '${p.text.substring(0, 600)}…' : p.text;
-      if (p.section.isNotEmpty) buf.writeln('${p.section}');
+      if (p.section.isNotEmpty) buf.writeln(p.section);
       buf.writeln(t);
       buf.writeln();
     }
