@@ -65,3 +65,10 @@ flutter run --dart-define=HISTO_PROXY_URL=https://your-worker.workers.dev
 - Wikipedia is a good starting point, not an infallible one. Always check the footnotes.
 - Articles are shown in the language they were written in. There is no machine translation.
 - Fonts load from Google Fonts at first use, so the very first launch needs internet.
+
+## Live proxy (Vercel)
+
+The proxy is also available as a Vercel function in `api/chat.js` (project `histo-ai`).
+Provider keys are Vercel environment variables (`GROQ_API_KEY`, `OPENAI_API_KEY`,
+`APP_TOKEN`). The workflow defaults `HISTO_PROXY_URL` to `https://histo-ai.vercel.app/api`;
+add the repository secret `HISTO_APP_TOKEN` (same value as `APP_TOKEN`) so the app can call it.
