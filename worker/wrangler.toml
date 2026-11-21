@@ -1,0 +1,9 @@
+name = "histo-ai-proxy"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# Provider keys are stored as secrets, never in this file:
+#   npx wrangler secret put GROQ_API_KEY
+#   npx wrangler secret put GEMINI_API_KEY
+#   npx wrangler secret put OPENROUTER_API_KEY
+#   npx wrangler secret put APP_TOKEN

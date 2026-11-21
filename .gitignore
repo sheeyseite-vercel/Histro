@@ -1,0 +1,14 @@
+.dart_tool/
+build/
+android/
+ios/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+*.iml
+.idea/
+.DS_Store
+node_modules/
+.wrangler/
+.dev.vars
